@@ -1,0 +1,16 @@
+{
+    "projects": [
+        {    
+        "title": "Hephaestus-1",
+        "github_repo": "https://github.com/BoaN235/hephaestus-3D-printer"
+        },
+        {    
+        "title": "Legitmate-Salvage",
+        "github_repo": "https://github.com/BoaN235/Legitmate-Salvage"
+        },
+        {    
+        "title": "The House Always Wins",
+        "github_repo": "https://github.com/BoaN235/Scrapyard-Hackathon"
+        }
+    ]
+}
