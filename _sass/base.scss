@@ -1,0 +1,64 @@
+/* For Chrome, Safari, and Opera */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Color Pallet 
+Black #151515
+Red #A63D40
+Yellow #E9B872
+
+Highlight Colors
+Black #1d1d1d
+Red #c54a4e
+Yellow #ffc97d
+*/
+/* Add a black background color to the top navigation */
+
+:root {
+    --primary-color: #151515;
+    --secondary-color: #A63D40;
+    --tertiary-color: #E9B872;
+
+    --primary-highlight-color: #292929;
+    --secondary-highlight-color: #d45155;
+    --tertiary-highlight-color: #ffc97d;
+    /*
+    --primary-gradient-color: linear-gradient(to right, var(--primary-color) , var(--primary-highlight-color))
+    --secondary-gradient-color: linear-gradient(to right, var(--secondary-color) , var(--secondary-highlight-color));
+    --tertiary-gradient-color: linear-gradient(to right, var(--tertiary-color) , var(--tertiary-highlight-color));
+    */
+
+}
+
+
+.nav-item {
+    color: --tertiary-color;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-image: linear-gradient(to right, var(--secondary-color) , var(--secondary-highlight-color));
+    color: --tertiary-color;
+    animation: 1s ease-out 0s 1 slideInFromTop;
+}
+
+
+
+@keyframes slideInFromTop {
+    0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+body {
+    color: var(--tertiary-color); 
+    font-family: 'Anonymous Pro', monospace;
+    background-image: linear-gradient(to right, var(--primary-color) , var(--primary-highlight-color));
+    height: 100vh;
+}

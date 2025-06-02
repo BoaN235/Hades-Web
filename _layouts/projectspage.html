@@ -1,0 +1,12 @@
+<html>
+  <body>
+    {% include head.html %}
+    {{ content }}
+    {% assign active_class = "" %}
+    {% if button_id == active_button %}
+        {% assign active_class = "active" %}
+    {% endif %}
+    {% include navbar.html button_id="home"%}
+
+  </body>
+</html>

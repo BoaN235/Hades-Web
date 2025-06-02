@@ -1,0 +1,16 @@
+{
+    "Hephaestus-1": {
+        "title": "Hephaestus-1",
+        "short_description": "A simple CoreXY Printer",
+        "repository": "https://raw.githubusercontent.com/BoaN235/hephaestus-3D-printer/refs/heads/main/LOG.md",
+        "file_name": "Hephaestus-1.md",
+        "name": "Hephaestus-1"
+    },
+    "Legitimate Salvage": {
+        "title": "Legitimate Salvage",
+        "short_description": "A Custom MacroPad",
+        "repository": "https://raw.githubusercontent.com/BoaN235/Project-Logs/refs/heads/main/Legitmate-Salvage.md?token=GHSAT0AAAAAADCHKYK6HU42P5LCGCOTX6RS2AYAMKA",
+        "file_name": "Legitimate_Salvage.md",
+        "name": "Legitimate_Salvage"
+    }
+}
